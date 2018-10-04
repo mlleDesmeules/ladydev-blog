@@ -9,7 +9,7 @@ export const environment = {
 
     api : {
         url          : "http://api.blog.local/v1/",
-        client_token : "2U82q14bSuZwF-ChZzvh-35-SzK1vlT4",
+        client_token : "XgdlghW_zKrgQCuHJr4SLizLf4PiN2Gs",
     },
 
     socialMedia : {
