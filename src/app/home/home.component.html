@@ -31,7 +31,7 @@
     </div>
 </section>
 
-<section class="featured-posts no-padding-top">
+<section class="featured-posts no-padding-top" *ngIf="hasFeatured()">
     <div class="container">
         <app-home-featured-post *ngFor="let post of featured; let idx = index;"
                                 [post]="post" [imgSide]="(idx % 2 === 0) ? 'right' : 'left'">
@@ -51,8 +51,9 @@
         </div>
     </div>
 </section>
+
 <!-- Latest Posts -->
-<section class="latest-posts">
+<section class="latest-posts" *ngIf="hasLatest()">
     <div class="container">
         <header>
             <h2 i18n="@@latest-title">Latest from the blog</h2>

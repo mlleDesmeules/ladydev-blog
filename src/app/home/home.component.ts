@@ -43,6 +43,14 @@ export class HomeComponent implements OnInit {
             });
     }
 
+    public hasFeatured() {
+        return (this.featured.length > 0);
+    }
+
+    public hasLatest() {
+        return (this.latest.length > 0);
+    }
+
     public scroll(target) {
         target.scrollIntoView({ behavior : "smooth" });
     }
