@@ -21,4 +21,10 @@ export class Author {
         this.biography = model.biography;
         this.job_title = model.job_title;
     }
+
+    public getInitials(): string {
+        const names = this.fullname.split(" ");
+
+		return names.map(n => n.charAt(0)).splice(0, 2).join("").toUpperCase();
+    }
 }

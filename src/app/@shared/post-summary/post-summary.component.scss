@@ -1,3 +1,20 @@
+$picture-size : 40px;
+
+.avatar  {
+	> div {
+		width      : $picture-size;
+		height     : $picture-size;
+		background : #841937;
+	}
+
+	.initials {
+		padding-top : 22%;
+        font-size   : 1rem;
+        font-weight : 600;
+		color       : white;
+	}
+}
+
 .loading {
 	background        : linear-gradient(242deg, #ffffff, #c2c2c2);
 	background-size   : 400% 400%;

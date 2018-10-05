@@ -16,7 +16,10 @@
         <footer *ngIf="showAuthor()" class="post-footer d-flex align-items-center">
             <a href="#" class="author d-flex align-items-center flex-wrap">
                 <div class="avatar">
-                    <img [src]="post.author?.picture" [alt]="post.author?.fullname" class="img-fluid">
+                    <div *ngIf="!post.author.picture" class="initials rounded text-center">
+                        {{ post.author.getInitials() }}
+                    </div>
+                    <img *ngIf="post.author.picture" [src]="post.author?.picture" [alt]="post.author?.fullname" class="img-fluid">
                 </div>
                 <div class="title"><span>{{ post.author?.fullname }}</span></div>
             </a>

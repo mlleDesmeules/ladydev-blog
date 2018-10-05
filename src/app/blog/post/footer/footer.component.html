@@ -1,6 +1,11 @@
 <div class="post-footer d-flex align-items-center flex-column flex-sm-row">
 	<a href="#" class="author d-flex align-items-center flex-wrap">
-		<div class="avatar"><img [src]="author.picture" [alt]="author.fullname" class="img-fluid"></div>
+		<div class="avatar">
+			<div *ngIf="!author.picture" class="initials rounded text-center">
+				{{ author.getInitials() }}
+			</div>
+			<img *ngIf="author.picture" [src]="author.picture" [alt]="author.fullname" class="img-fluid">
+		</div>
 		<div class="title"><span>{{ author.fullname }}</span></div>
 	</a>
 	<div class="d-flex align-items-center flex-wrap">
