@@ -13,7 +13,7 @@
 				                      [published]="post.published_on">
 				</app-blog-post-footer>
 
-				<div class="post-body">
+				<div class="post-body" highlight="all">
 					<p class="lead">{{ post.summary }}</p>
 					<div [innerHtml]="post.content | safeHtml"></div>
 				</div>

@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { HighlightModule } from 'ngx-highlightjs';
 import { PaginationModule } from "@shared/pagination/pagination.module";
 import { PipesModule } from "@shared/pipes/pipes.module";
 import { PostSummaryModule } from "@shared/post-summary/post-summary.module";
@@ -14,30 +15,26 @@ import { TagsComponent } from "./post/tags/tags.component";
 import { FooterComponent } from "./post/footer/footer.component";
 import { PostComponent } from "./post/post.component";
 
-const MODULES = [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    BlogRoutingModule,
-    PaginationModule,
-    PostSummaryModule,
-    PipesModule,
-];
-
-const COMPONENTS = [
-    ListComponent,
-    FooterComponent,
-    PostComponent,
-    TagsComponent,
-    CommentComponent,
-    SingleComponent,
-    FormComponent,
-];
-
-
 @NgModule({
-    imports      : [ ...MODULES ],
-    declarations : [ ...COMPONENTS ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        HighlightModule.forRoot({ theme: "darkula", path: "assets/js/highlight" }),
+        BlogRoutingModule,
+        PaginationModule,
+        PostSummaryModule,
+        PipesModule,
+    ],
+    declarations: [
+        ListComponent,
+        FooterComponent,
+        PostComponent,
+        TagsComponent,
+        CommentComponent,
+        SingleComponent,
+        FormComponent,
+    ],
 })
 export class BlogModule {
 }
