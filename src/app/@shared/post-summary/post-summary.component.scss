@@ -15,6 +15,10 @@ $picture-size : 40px;
 	}
 }
 
+.post-footer .date {
+	text-transform: initial;
+}
+
 .loading {
 	background        : linear-gradient(242deg, #ffffff, #c2c2c2);
 	background-size   : 400% 400%;

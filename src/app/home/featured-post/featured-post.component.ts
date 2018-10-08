@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, Inject, LOCALE_ID } from "@angular/core";
 
 @Component({
     selector    : "app-home-featured-post",
@@ -7,13 +7,10 @@ import { Component, Input } from "@angular/core";
 })
 export class FeaturedPostComponent {
 
-    @Input()
-    public post;
+    @Input() public post;
+    @Input() public imgSide: string;
 
-    @Input()
-    public imgSide: string;
-
-    constructor() {
+    constructor(@Inject(LOCALE_ID) public locale) {
     }
 
     displayImage(side: string): boolean {

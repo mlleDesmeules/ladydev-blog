@@ -23,6 +23,10 @@
                 </div>
                 <div class="title"><span>{{ post.author?.fullname }}</span></div>
             </a>
+            <div class="date">
+                <i class="icon-clock"></i>
+                {{ post.published_on | timeAgo:locale }}
+            </div>
             <div class="comments meta-last">
                 <i class="icon-comment"></i>
                 {{ post.comments?.count }}

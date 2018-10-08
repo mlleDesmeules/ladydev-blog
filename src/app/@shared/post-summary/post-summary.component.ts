@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, Input, LOCALE_ID, Inject } from "@angular/core";
 import { Post } from "@core/data/posts";
 
 @Component({
@@ -6,15 +6,12 @@ import { Post } from "@core/data/posts";
     templateUrl : "./post-summary.component.html",
     styleUrls   : [ "./post-summary.component.scss" ],
 })
-export class PostSummaryComponent implements OnInit {
+export class PostSummaryComponent {
 
     @Input() post: Post = new Post();
     @Input() format     = "full";
 
-    constructor() {
-    }
-
-    ngOnInit() {
+    constructor(@Inject(LOCALE_ID) public locale) {
     }
 
     /**

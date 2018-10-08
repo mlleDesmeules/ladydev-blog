@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, Input, Inject, LOCALE_ID } from "@angular/core";
 import { Author } from "@core/data/users";
 
 @Component({
@@ -6,16 +6,11 @@ import { Author } from "@core/data/users";
     templateUrl : "./footer.component.html",
     styleUrls   : [ "./footer.component.scss" ],
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent {
 
     @Input() author: Author;
     @Input() commentCount: number;
     @Input() published: string;
 
-    constructor() {
-    }
-
-    ngOnInit() {
-    }
-
+    constructor(@Inject(LOCALE_ID) public locale) {}
 }
