@@ -1,0 +1,9 @@
+.post-links {
+  margin-top: -1.75rem;
+  text-align: right;
+
+  & a span {
+    font-size: 0.8rem;
+    padding-right: 0.25rem;
+  }
+}

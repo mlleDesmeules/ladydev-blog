@@ -3,6 +3,7 @@
 		<div class="post-single">
 			<div class="post-thumbnail"><img [src]="post.cover.url" [alt]="post.cover.alt" class="img-fluid"></div>
 			<div class="post-details">
+                <app-blog-post-links [links]="post.links"></app-blog-post-links>
 				<div class="post-meta d-flex justify-content-between">
 					<div class="category"> <a href="#">{{ post.category.name }}</a> </div>
 				</div>
@@ -14,8 +15,8 @@
 				</app-blog-post-footer>
 
 				<div class="post-body" highlight="all">
-					<p class="lead">{{ post.summary }}</p>
-					<div [innerHtml]="post.content | safeHtml"></div>
+                    <p class="lead">{{ post.summary }}</p>
+                    <div [innerHtml]="post.content | safeHtml"></div>
 				</div>
 
 				<app-blog-post-tags [tags]="post.tags"></app-blog-post-tags>

@@ -1,0 +1,10 @@
+<div class="post-links">
+    <a [href]="getLink('code')" target="_blank" class="btn btn-secondary" *ngIf="hasLink('code')">
+        <span><i class="fas fa-code"></i></span>
+        view code
+    </a>
+    <a [href]="getLink('demo')" target="_blank" class="btn btn-secondary" *ngIf="hasLink('demo')">
+        <span><i class="fas fa-eye"></i></span>
+        view demo
+    </a>
+</div>
