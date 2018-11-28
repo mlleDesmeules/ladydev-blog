@@ -1,5 +1,6 @@
 export * from "./post.model";
 export * from "./post-cover.model";
+export * from "./post-link.model";
 
 export * from "./post.filters";
 export * from "./post.service";
