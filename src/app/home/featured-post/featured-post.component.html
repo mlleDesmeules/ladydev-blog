@@ -15,7 +15,7 @@
 				</header>
 				<p>{{ post.summary }}</p>
 				<footer class="post-footer d-flex align-items-center">
-					<a href="#" class="author d-flex align-items-center flex-wrap">
+                    <a routerLink="/about-me" class="author d-flex align-items-center flex-wrap">
 						<div class="avatar">
 							<div *ngIf="!post.author.picture" class="initials rounded text-center">
 								{{ post.author.getInitials() }}
