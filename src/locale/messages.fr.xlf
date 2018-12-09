@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" 
-  xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template" target-language="fr">
     <body>
       <trans-unit id="home-title" datatype="html">
@@ -21,15 +20,10 @@
       </trans-unit>
       <trans-unit id="intro" datatype="html">
         <source>
-                    I am here to 
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>share
-          <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> what I have learned during my years of being a professional web developer, help
-                    you try to make sense of it all. I am also here to share my experience as a 
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>woman in tech
-          <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> and help
+                    I am here to <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>share<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> what I have learned during my years of being a professional web developer, help
+                    you try to make sense of it all. I am also here to share my experience as a <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>woman in tech<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> and help
                     others that want to enter the industry by making it less intimidating and more inclusive.
-                
-        </source>
+                </source>
         <target>
             Je suis ici pour
           
@@ -241,10 +235,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="contact-email" datatype="html">
-        <source>Email: 
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>info@ladydev.io
-          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
-        </source>
+        <source>Email: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>info@ladydev.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></source>
         <target>Courriel:
           
           
@@ -281,9 +272,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="copyright" datatype="html">
-        <source>© 
-          <x id="INTERPOLATION" equiv-text="{{ year }}"/>. All rights reserved. ladydev.io
-        </source>
+        <source>© <x id="INTERPOLATION" equiv-text="{{ year }}"/>. All rights reserved. ladydev.io</source>
         <target>©
           
           
@@ -319,10 +308,9 @@
         </context-group>
       </trans-unit>
       <trans-unit id="template" datatype="html">
-        <source>Template By 
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Bootstrap Temple
-          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
-        </source>
+        <source>Template By <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Bootstrap Temple<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+					   
+					</source>
         <target>Template par
           
           
@@ -445,10 +433,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="blog-list-count" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="{{ list.length }}"/>
-          <x id="ICU" equiv-text="{list.length, plural, =0 {...} =1 {...} many {...}}"/> available 
-        </source>
+        <source> <x id="INTERPOLATION" equiv-text="{{ list.length }}"/> <x id="ICU" equiv-text="{list.length, plural, =0 {...} =1 {...} many {...}}"/> available </source>
         <target>
           <x id="INTERPOLATION" equiv-text="{{ count }}"/>
           <x id="ICU" equiv-text="{count, plural, =0 {...} =1 {...} many {...}}"/> disponible
@@ -473,11 +458,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="comment-title" datatype="html">
-        <source>Conversation 
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>(
-          <x id="INTERPOLATION" equiv-text="{{ count }}"/>)
-          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>
-        </source>
+        <source>Conversation <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>(<x id="INTERPOLATION" equiv-text="{{ count }}"/>)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></source>
         <target>Conversation
           
           
@@ -564,9 +545,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="pagination-page" datatype="html">
-        <source>Go to page #
-          <x id="INTERPOLATION" equiv-text="{{ page }}"/>
-        </source>
+        <source>Go to page #<x id="INTERPOLATION" equiv-text="{{ page }}"/></source>
         <target>Aller à la page #
           
           
@@ -617,6 +596,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.ts</context>
           <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-title" datatype="html">
+        <source>About me</source>
+        <target>À propos</target>
+        <context-group purpose="location">
+            <context context-type="sourcefile">app/pages/about/about.component.ts</context>
+            <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="error-500-metatitle" datatype="html">
