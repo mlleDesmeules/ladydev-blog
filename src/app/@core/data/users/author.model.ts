@@ -27,4 +27,16 @@ export class Author {
 
 		return names.map(n => n.charAt(0)).splice(0, 2).join("").toUpperCase();
 	}
+
+	public getFullname(): string {
+		if (this.fullname) {
+			return this.fullname;
+		}
+
+		if (this.firstname || this.lastname) {
+			return `${this.firstname} ${this.lastname}`;
+		}
+
+		return "";
+	}
 }

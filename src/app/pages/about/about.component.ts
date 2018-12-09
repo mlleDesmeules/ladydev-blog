@@ -1,42 +1,37 @@
 import { Component, OnInit, TemplateRef, ViewChild } from "@angular/core";
 import { Meta, Title } from "@angular/platform-browser";
-import { Author, AuthorService } from "@core/data/users";
+import { ActivatedRoute } from "@angular/router";
+import { Author } from "@core/data/users";
 
 @Component({
-    selector    : "app-about",
-    templateUrl : "./about.component.html",
-    styleUrls   : [ "./about.component.scss" ],
+	selector   : "app-about",
+	templateUrl: "./about.component.html",
+	styleUrls  : [ "./about.component.scss" ],
 })
 export class AboutComponent implements OnInit {
 
-    public author: Author = new Author();
+	public author: Author;
 
-    @ViewChild("metadataTranslation") metadataTranslation: TemplateRef<any>;
+	@ViewChild("metadataTranslation") metadataTranslation: TemplateRef<any>;
 
-    constructor(private title: Title,
-                private meta: Meta,
-                private service: AuthorService) {
-    }
+	constructor(private title: Title,
+				private meta: Meta,
+				private route: ActivatedRoute) {
+	}
 
-    ngOnInit() {
-        this.setMetadata();
-        this.getAuthor();
-    }
+	ngOnInit() {
+		this.author = this.route.snapshot.data[ "author" ];
 
-    /**
-     * Get the author (aka me) information.
-     */
-    private getAuthor() {
-        this.service.findOne()
-            .subscribe((result: Author) => {
-                this.author = result;
-            });
-    }
+		this.setMetadata();
+	}
 
-    private setMetadata() {
-        const nodes = this.metadataTranslation.createEmbeddedView({}).rootNodes;
+	/**
+	 * Set metadata for this page
+	 */
+	private setMetadata() {
+		const nodes = this.metadataTranslation.createEmbeddedView({}).rootNodes;
 
-        this.title.setTitle(nodes[ 0 ].innerText);
-        this.meta.updateTag({ name : "description", content : nodes[ 1 ].innerText }, "name='description'");
-    }
+		this.title.setTitle(nodes[ 0 ].innerText);
+		this.meta.updateTag({ name: "description", content: nodes[ 1 ].innerText }, "name='description'");
+	}
 }
