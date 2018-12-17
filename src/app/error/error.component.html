@@ -13,8 +13,8 @@
             </span>
         </h3>
         <div class="code">
-            <span class="comment" *ngIf="is(404)">// 404 page not found (aka it's not me, it's you)</span>
-            <span class="comment" *ngIf="is(500)">// 500 internal server error (aka it's not you, it's me)</span>
+            <span class="comment" *ngIf="is(404)" i18n="@@error-400-comment">// 404 page not found (aka it's not me, it's you)</span>
+            <span class="comment" *ngIf="is(500)" i18n="@@error-500-comment">// 500 internal server error (aka it's not you, it's me)</span>
 
             <span>
                 <span class="keyword">if</span>

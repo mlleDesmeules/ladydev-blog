@@ -6,7 +6,7 @@
         <source>ladydev.io sharing tips and tricks about web development</source>
         <target state="final">ladydev.io sharing tips and tricks about web development</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
@@ -14,7 +14,7 @@
         <source>Hi, I'm Roxanne</source>
         <target state="final">Hi, I'm Roxanne</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
@@ -30,7 +30,7 @@
                     others that want to enter the industry by making it less intimidating and more inclusive.
                 </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
@@ -38,7 +38,7 @@
         <source>View More</source>
         <target state="final">View More</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
@@ -46,23 +46,23 @@
         <source>Latest from the blog</source>
         <target state="final">Latest from the blog</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="latest-desc" datatype="html">
         <source>See latest articles published on the blog</source>
         <target state="final">See latest articles published on the blog</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="scroll" datatype="html">
         <source>Scroll Down</source>
         <target state="final">Scroll Down</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
@@ -70,7 +70,7 @@
         <source>Contact Me</source>
         <target state="final">Contact Me</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
@@ -82,7 +82,7 @@
                 You have a question or a comment? a post idea? Let me know by filling the form bellow.
             </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -94,7 +94,7 @@
                 I have received your message and I will answer you as soon as possible.
             </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
@@ -102,11 +102,11 @@
         <source>Name*</source>
         <target state="final">Name*</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">28</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
@@ -118,7 +118,7 @@
                                     Please enter your name
                                 </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
@@ -126,11 +126,11 @@
         <source>Email address*</source>
         <target state="final">Email address*</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">41</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
@@ -142,7 +142,7 @@
                                     Please enter your email
                                 </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
@@ -150,11 +150,11 @@
         <source>Your subject</source>
         <target state="final">Your subject</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">54</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
@@ -162,11 +162,11 @@
         <source>Your message*</source>
         <target state="final">Your message*</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">60</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
@@ -178,7 +178,7 @@
                                     Please enter your message
                                 </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
@@ -190,7 +190,7 @@
                                 Send Message
                             </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
@@ -198,7 +198,7 @@
         <source>Montreal, Qc</source>
         <target state="final">Montreal, Qc</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
@@ -206,7 +206,7 @@
         <source>Email: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>info@ladydev.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></source>
         <target state="final">Email: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>info@ladydev.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
@@ -214,7 +214,7 @@
         <source>© <x id="INTERPOLATION" equiv-text="{{ year }}"/>. All rights reserved. ladydev.io</source>
         <target state="final">© <x id="INTERPOLATION" equiv-text="{{ year }}"/>. All rights reserved. ladydev.io</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
@@ -226,7 +226,7 @@
 					   
 					</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
@@ -234,7 +234,7 @@
         <source>Disclosure Policy</source>
         <target state="final">Disclosure Policy</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
@@ -242,7 +242,7 @@
         <source>About me</source>
         <target state="final">About me</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
@@ -250,7 +250,7 @@
         <source>FAQ</source>
         <target state="final">FAQ</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
@@ -258,11 +258,11 @@
         <source>Contact</source>
         <target state="final">Contact</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/footer/footer.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
           <context context-type="linenumber">44</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/header/header.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/header/header.component.html</context>
           <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
@@ -270,7 +270,7 @@
         <source>Home</source>
         <target state="final">Home</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/header/header.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/header/header.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
@@ -282,7 +282,7 @@
                             Blog
                         </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/components/header/header.component.ts</context>
+          <context context-type="sourcefile">app/@theme/components/header/header.component.html</context>
           <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
@@ -290,7 +290,7 @@
         <source>Search the blog</source>
         <target state="final">Search the blog</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/widgets/search/search.component.ts</context>
+          <context context-type="sourcefile">app/@theme/widgets/search/search.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -298,7 +298,7 @@
         <source>What are you looking for?</source>
         <target state="final">What are you looking for?</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/widgets/search/search.component.ts</context>
+          <context context-type="sourcefile">app/@theme/widgets/search/search.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
@@ -306,7 +306,7 @@
         <source>Categories</source>
         <target state="final">Categories</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/widgets/categories/categories.component.ts</context>
+          <context context-type="sourcefile">app/@theme/widgets/categories/categories.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -314,7 +314,7 @@
         <source>Tags</source>
         <target state="final">Tags</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@theme/widgets/tags/tags.component.ts</context>
+          <context context-type="sourcefile">app/@theme/widgets/tags/tags.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -322,7 +322,7 @@
         <source> <x id="INTERPOLATION" equiv-text="{{ list.length }}"/> <x id="ICU" equiv-text="{list.length, plural, =0 {...} =1 {...} many {...}}"/> available </source>
         <target state="final"> <x id="INTERPOLATION" equiv-text="{{ list.length }}"/> <x id="ICU" equiv-text="{list.length, plural, =0 {...} =1 {...} many {...}}"/> available </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/list/list.component.ts</context>
+          <context context-type="sourcefile">app/blog/list/list.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -330,7 +330,7 @@
         <source>{VAR_PLURAL, plural, =0 {post} =1 {post} many {posts} }</source>
         <target state="final">{VAR_PLURAL, plural, =0 {post} =1 {post} many {posts} }</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/list/list.component.ts</context>
+          <context context-type="sourcefile">app/blog/list/list.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -338,7 +338,7 @@
         <source>Conversation <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>(<x id="INTERPOLATION" equiv-text="{{ count }}"/>)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></source>
         <target state="final">Conversation <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>(<x id="INTERPOLATION" equiv-text="{{ count }}"/>)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/comment.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/comment.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -346,7 +346,7 @@
         <source> Comments are closed </source>
         <target state="final"> Comments are closed </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/comment.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/comment.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
@@ -354,11 +354,11 @@
         <source>Name</source>
         <target state="final">Name</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
@@ -366,11 +366,11 @@
         <source>Email Address (will not be published)</source>
         <target state="final">Email Address (will not be published)</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
@@ -378,11 +378,11 @@
         <source>Type your comment</source>
         <target state="final">Type your comment</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
@@ -390,7 +390,7 @@
         <source>Submit Comment</source>
         <target state="final">Submit Comment</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/post/comment/form/form.component.ts</context>
+          <context context-type="sourcefile">app/blog/post/comment/form/form.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
@@ -398,7 +398,7 @@
         <source>Go to previous page</source>
         <target state="final">Go to previous page</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@shared/pagination/pagination.component.ts</context>
+          <context context-type="sourcefile">app/@shared/pagination/pagination.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
@@ -406,7 +406,7 @@
         <source>Go to page #<x id="INTERPOLATION" equiv-text="{{ page }}"/></source>
         <target state="final">Go to page #<x id="INTERPOLATION" equiv-text="{{ page }}"/></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@shared/pagination/pagination.component.ts</context>
+          <context context-type="sourcefile">app/@shared/pagination/pagination.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
@@ -414,7 +414,7 @@
         <source>Go to next page</source>
         <target state="final">Go to next page</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/@shared/pagination/pagination.component.ts</context>
+          <context context-type="sourcefile">app/@shared/pagination/pagination.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
@@ -422,7 +422,7 @@
         <source>Contact Me - ladydev.io</source>
         <target state="final">Contact Me - ladydev.io</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
@@ -430,7 +430,7 @@
         <source>You have a question or a comment? a post idea? Let me know!</source>
         <target state="final">You have a question or a comment? a post idea? Let me know!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/contact/contact.component.ts</context>
+          <context context-type="sourcefile">app/pages/contact/contact.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -438,7 +438,7 @@
         <source>About Me - ladydev.io</source>
         <target state="final">About Me - ladydev.io</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/about/about.component.ts</context>
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
@@ -446,23 +446,23 @@
         <source>Learn a little more about the author of this blog, what she does for a living, what made her go in tech.</source>
         <target state="final">Learn a little more about the author of this blog, what she does for a living, what made her go in tech.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/about/about.component.ts</context>
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="about-title" datatype="html">
-          <source>About me</source>
-          <target state="final">About me</target>
-          <context-group purpose="location">
-              <context context-type="sourcefile">app/pages/about/about.component.ts</context>
-              <context context-type="linenumber">8</context>
-          </context-group>
-        </trans-unit>
+        <source>About me</source>
+        <target state="final">About me</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="error-500-metatitle" datatype="html">
         <source>Server failed - ladydev.io</source>
         <target state="final">Server failed - ladydev.io</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/error/error.component.ts</context>
+          <context context-type="sourcefile">app/error/error.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
@@ -470,19 +470,35 @@
         <source>Page not found - ladydev.io</source>
         <target state="final">Page not found - ladydev.io</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/error/error.component.ts</context>
+          <context context-type="sourcefile">app/error/error.component.html</context>
           <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="error-400-comment" datatype="html">
+        <source>// 404 page not found (aka it's not me, it's you)</source>
+        <target state="final">// 404 page not found (aka it's not me, it's you)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/error/error.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="error-500-comment" datatype="html">
+        <source>// 500 internal server error (aka it's not you, it's me)</source>
+        <target state="final">// 500 internal server error (aka it's not you, it's me)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/error/error.component.html</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="home-metadesc" datatype="html">
         <source>Learn about web development, PHP, NodeJs, Angular2+ and others</source>
         <target state="final">Learn about web development, PHP, NodeJs, Angular2+ and others</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/blog/list/list.component.ts</context>
+          <context context-type="sourcefile">app/blog/list/list.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
