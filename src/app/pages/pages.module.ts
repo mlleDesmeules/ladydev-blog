@@ -8,28 +8,24 @@ import { PagesRoutingModule } from "./pages-routing.module";
 
 import { ContactComponent } from "./contact/contact.component";
 import { AboutComponent } from "./about/about.component";
-
-const BASE_MODULES = [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-];
-
-const MODULES = [
-    PagesRoutingModule,
-
-    PipesModule,
-    LaddaModule,
-];
-
-const COMPONENTS = [
-    ContactComponent,
-    AboutComponent,
-];
+import { PrivacyPolicyComponent } from "./privacy-policy/privacy-policy.component";
 
 @NgModule({
-    imports      : [ ...BASE_MODULES, ...MODULES ],
-    declarations : [ ...COMPONENTS ],
+	imports     : [
+		CommonModule,
+		FormsModule,
+		ReactiveFormsModule,
+
+		PagesRoutingModule,
+
+		PipesModule,
+		LaddaModule,
+	],
+	declarations: [
+		AboutComponent,
+		ContactComponent,
+		PrivacyPolicyComponent,
+	],
 })
 export class PagesModule {
 }

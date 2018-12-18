@@ -3,6 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { AboutMeResolve } from "@core/data/users";
 import { AboutComponent } from "./about/about.component";
 import { ContactComponent } from "./contact/contact.component";
+import { PrivacyPolicyComponent } from "./privacy-policy/privacy-policy.component";
 
 const routes: Routes = [
 	{
@@ -14,6 +15,9 @@ const routes: Routes = [
 		resolve  : {
 			author: AboutMeResolve,
 		},
+	}, {
+		path     : "privacy-policy",
+		component: PrivacyPolicyComponent,
 	},
 ];
 
