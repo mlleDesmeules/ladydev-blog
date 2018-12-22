@@ -191,6 +191,651 @@
           <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="privacy-title" datatype="html">
+        <source>Privacy Policy</source>
+        <target state="final">Politique de Confidentialité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-date" datatype="html">
+        <source>Effective date: December 17, 2018</source>
+        <target state="final">Date de prise d'effet: 17 décembre 2018</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-us" datatype="html">
+        <source>ladydev.io ("us", "we", or "our") operates the https://ladydev.io website (the
+                "Service").</source>
+        <target state="final">ladydev.io ("nous", "notre", "nos") exploite le site web www.ladydev.io (ci-après désigné par le terme "Service").</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-explanation" datatype="html">
+        <source>This page informs you of our policies regarding the collection, use, and
+                disclosure of personal data
+                when you use our Service and the choices you have associated with that data. Our Privacy Policy for
+                ladydev.io is based on the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Free Privacy
+                    Policy Template Website<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>.</source>
+        <target state="final">Cette page vous explique nos politiques en matière de collecte, d'utilisation et de communication des données à caractère personnel lorsque vous utilisez notre Service ainsi que les choix qui s'offrent à vous en ce qui concerne ces données. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Modèle de politique de confidentialité via FreePrivacyPolicy<x id="CLOSE_LINK" ctype="x-a"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-agreement" datatype="html">
+        <source>We use your data to provide and improve the Service. By using the Service, you
+                agree to the
+                collection and use of information in accordance with this policy. Unless otherwise defined in this
+                Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and
+                Conditions, accessible from https://ladydev.io</source>
+        <target state="final">Nous utilisons vos données pour fournir et améliorer le Service. En utilisant le Service, vous consentez à la collecte et à l'utilisation d'informations conformément à la présente politique. Sauf définition contraire dans la présente Politique de Confidentialité, les termes utilisés dans la présente Politique de Confidentialité ont la même signification que dans nos Conditions Générales qui sont disponibles sur https://ladydev.io</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-collection-use" datatype="html">
+        <source>Information Collection And Use</source>
+        <target state="final">Collecte et utilisation des données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-collect" datatype="html">
+        <source>We collect several different types of information for various purposes to
+                provide and improve our
+                Service to you.</source>
+        <target state="final">Nous recueillons plusieurs types de données à différentes fins en vue de vous fournir notre Service et de l'améliorer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-datatype" datatype="html">
+        <source>Types of Data Collected</source>
+        <target state="final">Types de données recueillies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-datatype-perso" datatype="html">
+        <source>Personal Data</source>
+        <target state="final">Données à Caractère Personnel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-perso-collect" datatype="html">
+        <source>While using our Service, we may ask you to provide us with certain
+                personally identifiable
+                information that can be used to contact or identify you ("Personal Data"). Personally identifiable
+                information may include, but is not limited to:</source>
+        <target state="final">Lorsque vous utilisez notre Service, il est possible que nous vous demandions de nous fournir certaines données personnelles nominatives qui peuvent servir à vous contacter ou à vous identifier ("Données à Caractère Personnel"). Les données personnelles nominatives peuvent comprendre, mais de manière non limitative:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-email" datatype="html">
+        <source>Email address</source>
+        <target state="final">Adresse e-mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-name" datatype="html">
+        <source>First name and last name</source>
+        <target state="final">Prénom et nom de famille</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-cookie" datatype="html">
+        <source>Cookies and Usage Data</source>
+        <target state="final">Cookies et Données d'Utilisation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-usage" datatype="html">
+        <source>Usage Data</source>
+        <target state="final">Données d'Utilisation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-usage-collect" datatype="html">
+        <source>We may also collect information how the Service is accessed and used
+                ("Usage Data"). This Usage Data
+                may include information such as your computer's Internet Protocol address (e.g. IP address), browser
+                type, browser version, the pages of our Service that you visit, the time and date of your visit, the
+                time spent on those pages, unique device identifiers and other diagnostic data.</source>
+        <target state="final">Nous pouvons également recueillir des informations relatives au mode d'accès et d'utilisation du Service ("Données d'Utilisation"). Ces Données d'Utilisation peuvent comprendre des informations telles que l'adresse de protocole Internet (c.-à-d. l'adresse IP) de votre ordinateur, le type de navigateur, la version du navigateur, les pages de notre Service que vous consultez, la date et l'heure de votre visite, le temps passé sur ces pages, les identifiants uniques de dispositifs ainsi que d'autres données de diagnostic.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking" datatype="html">
+        <source>Tracking &amp; Cookies Data</source>
+        <target state="final">Suivi et données de cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking-cookie" datatype="html">
+        <source>We use cookies and similar tracking technologies to track the activity
+                on our Service and hold
+                certain information.</source>
+        <target state="final">Nous avons recours à des cookies et à d'autres technologies de suivi similaires pour effectuer un suivi des activités effectuées dans notre Service, et nous conservons certaines informations.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking-cookie-storage" datatype="html">
+        <source>Cookies are files with small amount of data which may include an
+                anonymous unique identifier. Cookies
+                are sent to your browser from a website and stored on your device. Tracking technologies also used
+                are beacons, tags, and scripts to collect and track information and to improve and analyze our
+                Service.</source>
+        <target state="final">Les cookies sont des fichiers à faible volume de données pouvant comporter un identifiant unique anonyme. Les cookies sont envoyés à votre navigateur depuis un site web et sont stockés sur votre dispositif. D'autres technologies de suivi telles que les pixels, les balises et les scripts sont également utilisées pour recueillir et suivre des informations et afin d'améliorer et d'analyser notre Service.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking-cookie-refuse" datatype="html">
+        <source>You can instruct your browser to refuse all cookies or to
+                indicate when a cookie is being sent.
+                However, if you do not accept cookies, you may not be able to use some portions of our Service.</source>
+        <target state="final">Vous pouvez demander à votre navigateur de refuser tous les cookies ou de vous avertir lorsqu'un cookie est envoyé. Toutefois, si vous n'acceptez pas les cookies, il se peut que vous ne puissiez pas utiliser certains éléments de notre Service.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking-example" datatype="html">
+        <source>Examples of Cookies we use:</source>
+        <target state="final">Exemples de cookies que nous utilisons :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking-session" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Session Cookies.<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> We use Session Cookies to
+                    operate our Service.
+                </source>
+        <target state="final"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Cookies de Session.<x id="CLOSE_TAG_STRONG" ctype="x-strong"/> Nous utilisons des Cookies de Session pour faire fonctionner notre Service.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tracking-preference" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Preference Cookies.<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> We use Preference Cookies
+                    to remember your preferences and
+                    various settings.
+                </source>
+        <target state="final"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Cookies de Préférences.<x id="CLOSE_TAG_STRONG" ctype="x-strong"/> Nous utilisons des Cookies de Préférences pour mémoriser vos préférences et vos différents paramètres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-tacking-security" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Security Cookies.<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> We use Security Cookies for
+                    security purposes.
+                </source>
+        <target state="final"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Cookies de Sécurité.<x id="CLOSE_TAG_STRONG" ctype="x-strong"/> Nous utilisons des Cookies de Sécurité pour des raisons de sécurité.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-use" datatype="html">
+        <source>Use of Data</source>
+        <target state="final">Utilisation des données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-collect" datatype="html">
+        <source>ladydev.io uses the collected data for various purposes:</source>
+        <target state="final">ladydev.io utilise les données recueillies à des fins diverses:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-maintain" datatype="html">
+        <source>To provide and maintain the Service</source>
+        <target state="final">Pour fournir et assurer notre Service</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-notify" datatype="html">
+        <source>To notify you about changes to our Service</source>
+        <target state="final">Pour vous faire part des changements apportés à notre Service</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-interact" datatype="html">
+        <source>To allow you to participate in interactive features of our Service
+                    when you choose to do so
+                </source>
+        <target state="final">Pour vous permettre d'utiliser les fonctions interactives de notre Service quand vous le souhaitez</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-support" datatype="html">
+        <source>To provide customer care and support</source>
+        <target state="final">Pour assurer l'assistance client</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-analysis" datatype="html">
+        <source>To provide analysis or valuable information so that we can improve
+                    the Service
+                </source>
+        <target state="final">Pour recueillir des données précieuses ou d'analyses qui nous permettront d'améliorer notre Service</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-monitor" datatype="html">
+        <source>To monitor the usage of the Service</source>
+        <target state="final">Pour contrôler l'utilisation de notre Service</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-data-issues" datatype="html">
+        <source>To detect, prevent and address technical issues</source>
+        <target state="final">Pour détecter, prévenir et régler les problèmes techniques</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-transfer" datatype="html">
+        <source>Transfer Of Data</source>
+        <target state="final">Transfert des données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-transfer-jurisdiction" datatype="html">
+        <source>Your information, including Personal Data, may be transferred to —
+                and maintained on — computers
+                located outside of your state, province, country or other governmental jurisdiction where the data
+                protection laws may differ than those from your jurisdiction.</source>
+        <target state="final">Les informations vous concernant, notamment vos Données à Caractère Personnel, peuvent être transférées de votre région, province, pays, ou autre division territoriale vers des ordinateurs – et stockées sur ces derniers – situés à un endroit où la législation relative à la protection des données diffère de celle du territoire où vous résidez.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-transfer-canada" datatype="html">
+        <source>If you are located outside Canada and choose to provide information to
+                us, please note that we
+                transfer the data, including Personal Data, to Canada and process it there.</source>
+        <target state="final">Si vous résidez hors du Canada et que vous choisissez de nous communiquer des informations, sachez que nous transférons les données, y compris les Données à Caractère Personnel, vers le Canada et que nous les y traitons.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-transfer-consent" datatype="html">
+        <source>Your consent to this Privacy Policy followed by your submission of such
+                information represents your
+                agreement to that transfer.</source>
+        <target state="final">En acceptant la présente Politique de Confidentialité puis en soumettant ces informations, vous consentez à ce transfert.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-transfer-securely" datatype="html">
+        <source>ladydev.io will take all steps reasonably necessary to ensure that
+                your data is treated securely and
+                in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an
+                organization or a country unless there are adequate controls in place including the security of your
+                data and other personal information.</source>
+        <target state="final">ladydev.io prendra toutes les mesures raisonnablement nécessaires pour faire en sorte que vos données soient traitées de manière sécurisée et conformément à la présente Politique de Confidentialité et vos Données à Caractère Personnel ne seront transférées vers aucune organisation ni aucun pays à moins que des contrôles adéquats ne soient en place, notamment en ce qui concerne la sécurité de vos données et d'autres données personnelles.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure" datatype="html">
+        <source>Disclosure Of Data</source>
+        <target state="final">Communication de données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-legal" datatype="html">
+        <source>Legal Requirements</source>
+        <target state="final">Exigences légales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-may" datatype="html">
+        <source>ladydev.io may disclose your Personal Data in the good faith belief that
+                such action is necessary
+                to:</source>
+        <target state="final">ladydev.io peut communiquer vos Données à Caractère Personnel si elle estime de bonne foi que cela est nécessaire pour:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-comply" datatype="html">
+        <source>To comply with a legal obligation</source>
+        <target state="final">S'acquitter d'une obligation légale</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-property" datatype="html">
+        <source>To protect and defend the rights or property of ladydev.io</source>
+        <target state="final">Protéger et défendre les droits ou les biens de ladydev.io</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-wrongdoing" datatype="html">
+        <source>To prevent or investigate possible wrongdoing in connection
+                    with the Service
+                </source>
+        <target state="final">Prévenir d'éventuels actes répréhensibles ou enquêter sur de tels actes dans le cadre du Service </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-safety" datatype="html">
+        <source>To protect the personal safety of users of the Service or the
+                    public
+                </source>
+        <target state="final">Assurer la sécurité personnelle des utilisateurs du Service ou du public</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-disclosure-liability" datatype="html">
+        <source>To protect against legal liability</source>
+        <target state="final">Se protéger contre la responsabilité civile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-security" datatype="html">
+        <source>Security Of Data</source>
+        <target state="final">Sécurité des données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-security-important" datatype="html">
+        <source>The security of your data is important to us, but remember that no
+                method of transmission over the
+                Internet, or method of electronic storage is 100% secure. While we strive to use commercially
+                acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</source>
+        <target state="final">La sécurité de vos données nous tient à cœur. Toutefois, n'oubliez pas qu'aucune méthode de transmission de données par Internet ou méthode de stockage électronique n'est sûre à 100 %. Bien que nous nous efforcions d'utiliser des méthodes commercialement acceptables pour protéger vos Données à Caractère Personnel, nous ne pouvons pas leur garantir une sécurité absolue.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-providers" datatype="html">
+        <source>Service Providers</source>
+        <target state="final">Prestataires de services</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-providers-thirdparty" datatype="html">
+        <source>We may employ third party companies and individuals to facilitate
+                our Service ("Service Providers"),
+                to provide the Service on our behalf, to perform Service-related services or to assist us in
+                analyzing how our Service is used.</source>
+        <target state="final">Nous pouvons faire appel à des sociétés tierces et à des tierces personnes pour faciliter la prestation de notre Service ("Prestataires de Services"), assurer le Service en notre nom, assurer des services liés au Service ou nous aider à analyser la façon dont notre Service est utilisé.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-providers-access" datatype="html">
+        <source>These third parties have access to your Personal Data only to perform
+                these tasks on our behalf and
+                are obligated not to disclose or use it for any other purpose.</source>
+        <target state="final">Ces tiers n'ont accès à vos Données à Caractère Personnel que pour effectuer ces tâches en notre nom et il leur est interdit de les communiquer ou de les utiliser à quelle qu'autre fin. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-analytics" datatype="html">
+        <source>Analytics</source>
+        <target state="final">Analyses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-analytics-thirdparty" datatype="html">
+        <source>We may use third-party Service Providers to monitor and analyze the
+                use of our Service.</source>
+        <target state="final">Nous pouvons faire appel à des Prestataires de Services tiers pour surveiller et analyser l'utilisation de notre Service.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-analytics-google" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Google Analytics<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/></source>
+        <target state="final"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Google Analytics<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-analytics-google-exp" datatype="html">
+        <source>Google Analytics is a web analytics service offered by
+                        Google that tracks and reports website
+                        traffic. Google uses the data collected to track and monitor the use of our Service. This
+                        data is shared with other Google services. Google may use the collected data to
+                        contextualize and personalize the ads of its own advertising network.</source>
+        <target state="final">Google Analytics est un service d'analyse web proposé par Google qui assure le suivi du trafic d'un site web et en rend compte. Google utilise les données recueillies pour suivre et surveiller l'utilisation de notre Service. Ces données sont partagées avec d'autres services Google. Google peut utiliser les données recueillies pour contextualiser et personnaliser les annonces de son propre réseau publicitaire.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-analytics-google-optout" datatype="html">
+        <source>You can opt-out of having made your activity on the
+                        Service available to Google Analytics by
+                        installing the Google Analytics opt-out browser add-on. The add-on prevents the Google
+                        Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google
+                        Analytics about visits activity.</source>
+        <target state="final">Vous pouvez empêcher que vos activités dans le cadre du Service ne soient mises à la disposition de Google Analytics en installant le plug-in pour navigateur Analytics Opt out browser add-on de Google Analytics. Ce plug-in empêche le code JavaScript de Google Analytics JavaScript (ga.js, analytics.js et dc.js) de partager les informations concernant les activités liées aux visites avec Google Analytics.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-analytics-google-more" datatype="html">
+        <source>For more information on the privacy practices of Google,
+                        please visit the Google Privacy &amp;
+                        Terms web page: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>https://policies.google.com/privacy?hl=en<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+                    </source>
+        <target state="final">Pour plus de précisions sur les pratiques de confidentialité de Google, merci de consulter la page web Protection de la vie privée et conditions de Google:: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>https://policies.google.com/privacy?hl=en<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+                    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-links" datatype="html">
+        <source>Links To Other Sites</source>
+        <target state="final">Liens pointant vers d'autres sites</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-links-other" datatype="html">
+        <source>Our Service may contain links to other sites that are not operated by us. If
+                you click on a third
+                party link, you will be directed to that third party's site. We strongly advise you to review the
+                Privacy Policy of every site you visit.</source>
+        <target state="final">Il se peut que notre Service contienne des liens pointant vers d'autres sites que nous n'exploitons pas. Si vous cliquez sur un lien de tiers, vous serez redirigé vers le site de ce tiers. Nous vous recommandons vivement d'examiner la politique de confidentialité de chacun des sites que vous consultez.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-links-responsibility" datatype="html">
+        <source>We have no control over and assume no responsibility for the
+                content, privacy policies or practices
+                of any third party sites or services.</source>
+        <target state="final">Nous n'avons aucun contrôle sur le contenu, les politiques ou pratiques de confidentialité des sites ou services de tiers et déclinons toute responsabilité en ce qui les concerne.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-children" datatype="html">
+        <source>Children's Privacy</source>
+        <target state="final">Vie privée des enfants</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-children-warning" datatype="html">
+        <source>Our Service does not address anyone under the age of 18
+                ("Children").</source>
+        <target state="final">Notre Service ne s'adresse pas aux personnes de moins de 18 ans ("Enfants").</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-children-contact" datatype="html">
+        <source>We do not knowingly collect personally identifiable information from
+                anyone under the age of 18. If
+                you are a parent or guardian and you are aware that your Children has provided us with Personal
+                Data, please contact us. If we become aware that we have collected Personal Data from children
+                without verification of parental consent, we take steps to remove that information from our
+                servers.</source>
+        <target state="final">Nous ne recueillons pas sciemment de données personnelles nominatives auprès de personnes de moins de 18 ans. Si vous êtes un parent ou un tuteur et que vous savez que votre Enfant nous a communiqué des Données à Caractère Personnel, veuillez nous contacter. Si nous apprenons que nous avons recueilli des Données à Caractère Personnel auprès d'enfants sans vérifier s'il y a consentement parental, nous faisons le nécessaire pour supprimer ces informations de nos serveurs.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-changes" datatype="html">
+        <source>Changes To This Privacy Policy</source>
+        <target state="final">Modifications de la présente Politique de Confidentialité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-changes-notify" datatype="html">
+        <source>We may update our Privacy Policy from time to time. We will notify you of
+                any changes by posting the
+                new Privacy Policy on this page.</source>
+        <target state="final">Nous nous réservons le droit d'actualiser notre Politique de Confidentialité de temps à autre. Nous vous informerons de toute modification en publiant la nouvelle Politique de Confidentialité sur cette page.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-changes-email" datatype="html">
+        <source>We will let you know via email and/or a prominent notice on our Service,
+                prior to the change becoming
+                effective and update the "effective date" at the top of this Privacy Policy.</source>
+        <target state="final">Avant que la modification ne prenne effet, nous vous en informerons par e-mail et/ ou en plaçant un avis bien en vue dans notre Service et nous actualiserons la "date de prise d'effet" qui figure en haut de la présente Politique de Confidentialité.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-changes-advised" datatype="html">
+        <source>You are advised to review this Privacy Policy periodically for any
+                changes. Changes to this Privacy
+                Policy are effective when they are posted on this page.</source>
+        <target state="final">Nous vous conseillons de consulter la présente Politique de Confidentialité périodiquement pour prendre connaissance de toute modification. Les modifications apportées à la présente Politique de Confidentialité prennent effet lorsqu'elles sont publiées sur cette page.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-contact" datatype="html">
+        <source>Contact Us</source>
+        <target state="final">Nous contacter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-contact-questions" datatype="html">
+        <source>If you have any questions about this Privacy Policy, please contact
+                us:</source>
+        <target state="final">Pour toute question relative à la présente Politique de Confidentialité, veuillez nous contacter:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-contact-email" datatype="html">
+        <source>By email: info@ladydev.io</source>
+        <target state="final">Par email: info@ladydev.io</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="contact-address" datatype="html">
         <source>Montreal, Qc</source>
         <target state="final">Montréal, Qc</target>
@@ -213,17 +858,17 @@
         <target state="final">© <x id="INTERPOLATION"/>. Tous droits réservés. ladydev.io</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="template" datatype="html">
         <source>Template By <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Bootstrap Temple<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
-					   
+
 					</source>
         <target state="final">Template par <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>Bootstrap Temple<x id="CLOSE_LINK" ctype="x-a"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="link-disclosure" datatype="html">
@@ -234,12 +879,20 @@
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="link-privacy" datatype="html">
+        <source>Privacy Policy</source>
+        <target state="final">Politique de Confidentialité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="link-about" datatype="html">
         <source>About me</source>
         <target state="final">À propos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="link-faq" datatype="html">
@@ -247,7 +900,7 @@
         <target state="final">FAQ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="link-contact" datatype="html">
@@ -255,7 +908,7 @@
         <target state="final">Contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/@theme/components/footer/footer.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">45</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/@theme/components/header/header.component.html</context>
